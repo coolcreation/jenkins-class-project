@@ -1,0 +1,15 @@
+services:
+  jenkins:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: jenkins-container
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - home:/var/jenkins_home
+    restart: unless-stopped
+
+volumes:   # add this section
+  home:    # does not need anything underneath this
