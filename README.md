@@ -1,1 +1,1 @@
-Docker stuff
+Docker container for Jenkins 
