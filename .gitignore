@@ -8,7 +8,7 @@
 
 # Docker files (if you don't want to track them)
 docker-compose.yml
-Dockerfile
+# Dockerfile
 
 # Node.js specific
 node_modules/
